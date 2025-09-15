@@ -1,7 +1,6 @@
 // Import core modules
 const http = require("http");
 const fs = require("fs");
-const path = require("path");
 
 // Create the web server
 const server = http.createServer((req, res) => {
